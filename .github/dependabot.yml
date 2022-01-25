@@ -7,6 +7,7 @@ updates:
     # Look for `package.json` and `lock` files in the `root` directory
     directory: "/"
     # Check the npm registry for updates every day (weekdays)
+    open-pull-requests-limit: 1 
     schedule:
       interval: "weekly"
 #    ignore:
@@ -18,4 +19,3 @@ updates:
 #        # Ignore only new versions for 4.x and 5.x
 #        versions: [ "4.x", "5.x" ]
       # For all packages, ignore all patch updates
-      open-pull-requests-limit: 1 
