@@ -18,6 +18,4 @@ updates:
 #        # Ignore only new versions for 4.x and 5.x
 #        versions: [ "4.x", "5.x" ]
       # For all packages, ignore all patch updates
-      - dependency-name: "*"
-        update-types: [ "version-update:semver-patch" ]
-      open-pull-requests-limit: 1      
+      open-pull-requests-limit: 1 
